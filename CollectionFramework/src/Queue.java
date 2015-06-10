@@ -14,7 +14,7 @@ queue.add(elements);
 System.out.println("Enter 1 to add another element");
  choice=sc.nextInt();
 	}while(choice==1);
-
+sc.close();
 /*
 queue.add("Vijay");
 queue.add("Ramesh");
